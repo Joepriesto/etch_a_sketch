@@ -1,0 +1,17 @@
+#container {
+    height: 90vh;
+    margin: 2rem;
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    grid-template-rows: repeat(4, 1fr);
+}
+
+.square {
+    background-color: white;
+    transition: 10s;
+}
+
+.square:hover {
+    background-color: darkolivegreen;
+}
+
