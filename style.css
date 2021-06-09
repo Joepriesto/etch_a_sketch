@@ -13,5 +13,6 @@
 
 .square:hover {
     background-color: darkolivegreen;
+    transition: none;
 }
 
